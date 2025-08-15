@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="text-slate-800">
+  <header class="border-b">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-center justify-between py-3">
+        <a href="#home" class="flex items-center gap-3">
+          <img src="/asset/images/garuda.webp" alt="Logo" class="h-10 w-10 rounded-full object-cover" />
+          <span class="sr-only">Home</span>
+        </a>
+
+        <nav class="flex gap-2">
+          <a href="#home" class="border px-4 py-1 text-sm rounded hover:bg-gray-50">Home</a>
+          <a href="#profile" class="border px-4 py-1 text-sm rounded hover:bg-gray-50">Our Profile</a>
+          <a href="#portfolio" class="border px-4 py-1 text-sm rounded hover:bg-gray-50">Portfolio</a>
+          <a href="#contact" class="border px-4 py-1 text-sm rounded hover:bg-gray-50">Message Us</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main> <!-- carousel -->
+    <section id="home" class="border-b">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <h1 class="text-xl font-semibold">Hi Naulia Adam Kuncoro, Welcome To Website</h1>
+        <p class="text-sm mt-1 text-slate-500">Ini adalah website latihan pertama</p>
+
+        <div class="mt-10 w-full border bg-white">
+          <div class="relative w-full" style="padding-top:49.6%;">
+            <div id="heroViewport" class="absolute inset-0 overflow-hidden">
+              <div id="heroTrack" class="flex h-full w-full">
+                <div class="relative min-w-full h-full">
+                  <img src="/asset/images/logohutri80.jpg" alt="HUT RI 80"
+                      class="absolute inset-0 h-full w-full object-cover" />
+                </div>
+                <div class="relative min-w-full h-full">
+                  <img src="/asset/images/Lampung.jpeg" alt="Lampung"
+                      class="absolute inset-0 h-full w-full object-cover" />
+                </div>
+                <div class="relative min-w-full h-full">
+                  <img src="/asset/images/Bali.png" alt="Bali"
+                      class="absolute inset-0 h-full w-full object-cover" />
+                </div>
+              </div>
+            </div>
+            <button id="heroPrev"
+              class="absolute left-2 top-1/2 -translate-y-1/2 rounded-full border bg-white/80 px-3 py-2 text-xs hover:bg-white"
+              aria-label="Previous slide">‹</button>
+            <button id="heroNext"
+              class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full border bg-white/80 px-3 py-2 text-xs hover:bg-white"
+              aria-label="Next slide">›</button>
+            <div id="heroDots" class="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-2"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- list Kota-->
+    <section id="profile" class="border-b">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="font-semibold">Our Headquarter</h2>
+
+        <div class="mt-8 flex gap-10 overflow-x-auto pb-4">
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Jakarta.jpg" alt="Jakarta" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Jakarta</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Bandung.jpg" alt="Bandung" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Bandung</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Surabaya.jpg" alt="Surabaya" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Surabaya</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Bali.png" alt="Bali" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Bali</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Jayapura.png" alt="Jayapura" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Jayapura</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Medan.jpg" alt="Medan" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Medan</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Lampung.jpeg" alt="Lampung" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Lampung</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Aceh.webp" alt="Aceh" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Aceh</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Balikpapan.jpg" alt="Balikpapan" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Balikpapan</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Banten.jpg" alt="Banten" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Banten</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Padang.jpg" alt="Padang" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Padang</p>
+          </div>
+
+          <div class="flex flex-col items-center gap-4 flex-shrink-0">
+            <img src="/asset/images/Makassar.jpg" alt="Makassar" class="h-28 w-28 rounded-full object-cover border-2 border-slate-300" />
+            <p class="text-sm">Makassar</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Message Us -->
+    <section id="contact" class="border-b">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="font-semibold mb-6">Message Us</h2>
+
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+          <form id="msgForm" class="space-y-4">
+            <div class="grid grid-cols-4 items-center gap-3">
+              <label for="name" class="col-span-1 text-sm">Nama</label>
+              <input id="name" name="name" type="text" required
+                class="col-span-3 rounded border px-3 py-2 text-sm outline-none focus:ring" placeholder="Nama" />
+            </div>
+
+            <div class="grid grid-cols-4 items-center gap-3">
+              <label for="dob" class="col-span-1 text-sm">Tanggal Lahir</label>
+              <input id="dob" name="dob" type="date" required
+                class="col-span-3 rounded border px-3 py-2 text-sm outline-none focus:ring" />
+            </div>
+
+            <div class="grid grid-cols-4 items-center gap-3">
+              <span class="col-span-1 text-sm">Jenis Kelamin</span>
+              <div class="col-span-3 flex items-center gap-6 text-sm">
+                <label class="inline-flex items-center gap-2">
+                  <input type="radio" name="gender" value="Laki - Laki" required class="accent-slate-700">
+                  <span>Laki-Laki</span>
+                </label>
+                <label class="inline-flex items-center gap-2">
+                  <input type="radio" name="gender" value="Perempuan" class="accent-slate-700">
+                  <span>Perempuan</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-3">
+              <label for="message" class="col-span-1 text-sm">Pesan</label>
+              <textarea id="message" name="message" rows="4" required
+                class="col-span-3 rounded border px-3 py-2 text-sm outline-none focus:ring"
+                placeholder="Pesan"></textarea>
+            </div>
+
+            <div>
+              <button type="submit"
+                class="rounded border px-6 py-2 text-sm hover:bg-gray-50">
+                Submit
+              </button>
+            </div>
+          </form>
+
+          <aside class="border p-4">
+            <p id="now" class="text-xs text-slate-500">Current time : —</p>
+            <div class="mt-4 space-y-1 text-sm">
+              <p><span class="font-semibold">Nama</span> : <span id="outName">—</span></p>
+              <p><span class="font-semibold">Tanggal Lahir</span> : <span id="outDob">—</span></p>
+              <p><span class="font-semibold">Jenis Kelamin</span> : <span id="outGender">—</span></p>
+              <p><span class="font-semibold">Pesan</span> : <span id="outMsg">—</span></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="mx-auto max-w-6xl px-4 py-6 text-right text-xs text-slate-400">
+        Created By Naulia Adam Kuncoro
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
